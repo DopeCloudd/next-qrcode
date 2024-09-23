@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { ThemeToggle } from "@/app/components/nav/theme-toggle";
+import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   return (
@@ -17,6 +18,9 @@ export default function Navbar() {
         </li>
         <li>
           <Link href="/blog">Blog</Link>
+        </li>
+        <li>
+          <Button>Connexion</Button>
         </li>
         <li>
           <ThemeToggle />
